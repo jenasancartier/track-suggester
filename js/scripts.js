@@ -14,15 +14,17 @@ $(document).ready(function() {
     var java = 0;
     var csharp =  0;
     var php = 0;
+
 //question 1
     if(q1Answer === "ui") {
       css += 5;
       ruby += 3;
       java += 2;
-      php -=3;
+      php -= 3;
     } else if (q1Answer === "behind"){
-      php +=3;
-      css -= 2;
+      php += 3;
+      css -= 4;
+      csharp += 3;
     }
 //question 2
     if(q2Answer === "large") {
@@ -40,15 +42,17 @@ $(document).ready(function() {
 //question 3
     if(q3Answer === "yesmobile"){
       java += 4;
-      css += 3;
+      css += 2;
       csharp += 3;
     } else if (q3Answer === "nomobile"){
       java -= 3;
+      ruby += 2;
+      php +=2
     }
 //question 4
     if(q4Answer === "playdoh"){
       ruby += 3;
-      css += 5;
+      css += 3;
     } else if (q4Answer === "legos"){
       php += 3;
       java += 3
@@ -57,35 +61,38 @@ $(document).ready(function() {
     }
 //question 5
     if(q5Answer === "design"){
-      css += 4
-      ruby += 1
+      css += 4;
     } else if (q5Answer ==="nodesign"){
-      csharp += 3
+      csharp += 3;
+      ruby += 2;
+      java += 2;
+      php += 3;
     }
 
 //question6
     if(q6Answer === "interpret"){
-      php += 2;
+      php += 3;
       ruby += 2;
     } else if (q6Answer === "compile"){
       java += 2;
       csharp += 2;
     }
 
-    var result = "";
+    // var result = "";
 
     if((css>ruby) && (css>java) && (css>csharp) && (css>php)){
-      result = "<h2>You should take the CSS/DESIGN track!</h2>"
-    } else if((ruby>css) && (ruby>java) && (ruby>csharp) && ruby>php)){
-      result = "<h2>You should take the RUBY/RAILS track!</h2>"
+      alert("You should take the CSS/DESIGN track!")
+    } else if((ruby>css) && (ruby>java) && (ruby>csharp) && (ruby>php)){
+      alert("You should take the RUBY/RAILS track!")
     } else if((java>css) && (java>ruby) && (java>csharp) && (java>php)){
-      result = "<h2>You should take the JAVA/ANDROID track!</h2>"
+      alert("You should take the JAVA/ANDROID track!")
     } else if((csharp>css) && (csharp>ruby) && (csharp>java) && (csharp>php)){
-      result = "<h2>You should take the PHP/DRUPAL track!</h2>"
+      alert("You should take the C#/.NET track!")
+    } else if ((php>css) && (php>ruby) && (php>java) && (php>csharp)){
+      alert("You should take the PHP/DRUPAL track!")
     }
 
-
-    $("results").html(result);
+    // $("results").html(result);
   })
 
 
