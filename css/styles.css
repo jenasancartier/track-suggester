@@ -2,6 +2,8 @@
   text-align: center;
   background-size: cover;
   background-image: url("../img/road-ahead.jpeg");
+  border-radius: 40%;
+  margin-top: 20px;
 }
 
 h1 {
@@ -37,4 +39,15 @@ input[type=radio] {
 
 .radio input[type=radio]{
   margin-left: -25px;
+}
+
+.btn {
+  margin-top: 10rem;
+  background-color: #33334d;
+  border-color: #ffad33;
+}
+
+.btn:hover {
+  background-color: #ffad33;
+  border-color: #33334d;
 }
