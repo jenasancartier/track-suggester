@@ -20,10 +20,23 @@ $(document).ready(function() {
       php -=3;
     } else if (q1Answer === "behind"){
       php +=3;
+      css -= 3
     }
 
+    if(q2Answer === "large") {
+      c# += 4;
+      java += 4
+      php += 3
+      ruby -= 1
+      css += 1
+    } else if (q2Answer === "small") {
+      css += 2;
+      ruby += 3;
+      c# -= 3;
+      java -= 1;
+    }
 
-
+    if
   })
 
 

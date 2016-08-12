@@ -19,9 +19,8 @@ p {
   font-size: 4rem;
 }
 
-#quiz h3 {
+#quiz h4 {
   color: black;
-  font-family: 'Amatic SC', cursive;
 }
 
 .row {
@@ -38,6 +37,11 @@ input[type=radio] {
 
 .radio input[type=radio]{
   margin-left: -25px;
+}
+
+label {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3rem;
 }
 
 .btn {
