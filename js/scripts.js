@@ -119,6 +119,8 @@ $(document).ready(function() {
         $("#csharp").hide();
         $("#php").show();
         $("ul").hide();
+    } else {
+        alert("Your answers did not provide a result. Try the quiz again, there's a language track for you, I promise.")
     }
 
  });
