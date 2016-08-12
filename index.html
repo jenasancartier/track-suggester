@@ -3,12 +3,89 @@
   <head>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
-
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bungee+Inline|Pacifico" rel="stylesheet">
     <title>Track Suggester</title>
   </head>
   <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Track Suggester</h1>
+        <br>
+        <h2>Which language is right for you?<h2>
+        <p>Take the quiz below</p>
+      </div>
+      <form id="quiz">
+        <div class="row">
 
+          <div class="col-sm-3">
+            <h2>Here is question 1?</h2>
+            <div class="radio">
+              <label>
+                <input class="form-control" name="q1" type="radio" value="yes1">
+                Yes, please.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input class="form-control" name="q1" type="radio" value="no1">
+                Not really.
+              </label>
+            </div>
+          </div>
+
+            <div class="col-sm-3">
+              <h2>Here is question 2?</h2>
+              <div class="radio">
+                <label>
+                  <input class="form-control" name="q2" type="radio" value="yes2">
+                  Yes, please.
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input class="form-control" name="q2" type="radio" value="no2">
+                  Not really.
+                </label>
+              </div>
+            </div>
+
+              <div class="col-sm-3">
+                <h2>Here is question 3?</h2>
+                <div class="radio">
+                  <label>
+                    <input class="form-control" name="q3" type="radio" value="yes3">
+                    Yes, please.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input class="form-control" name="q3" type="radio" value="no3">
+                    Not really.
+                  </label>
+                </div>
+              </div>
+
+                <div class="col-sm-3">
+                  <h2>Here is question 4?</h2>
+                  <div class="radio">
+                    <label>
+                      <input class="form-control" name="q4" type="radio" value="yes4">
+                      Yes, please.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input class="form-control" name="q4" type="radio" value="no4">
+                      Not really.
+                    </label>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+      </form>
+    </div>
   </body>
 </html>

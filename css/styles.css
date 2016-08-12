@@ -1,0 +1,40 @@
+.jumbotron {
+  text-align: center;
+  background-size: cover;
+  background-image: url("../img/road-ahead.jpeg");
+}
+
+h1 {
+  color: white;
+  font-family: 'Pacifico', cursive;
+}
+
+h2 {
+  color: white;
+  font-family: 'Amatic SC', cursive;
+}
+
+p {
+  color: white;
+  font-family: 'Amatic SC', cursive;
+}
+
+#quiz h2 {
+  color: black;
+}
+
+.row {
+  text-align: center;
+}
+
+input[type=radio] {
+    margin: -6px 0 0;
+}
+
+.form-control {
+  -webkit-box-shadow: none;
+}
+
+.radio input[type=radio]{
+  margin-left: -25px;
+}
