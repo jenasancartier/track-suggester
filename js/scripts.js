@@ -7,8 +7,23 @@ $(document).ready(function() {
     var q3Answer = $("input:radio[name=q3]:checked").val();
     var q4Answer = $("input:radio[name=q4]:checked").val();
 
+    var css = 0;
+    var ruby = 0;
+    var java = 0;
+    var c# =  0;
+    var php = 0;
 
-    
+    if(q1Answer === "ui") {
+      css += 4;
+      ruby += 3;
+      java += 2;
+      php -=3;
+    } else if (q1Answer === "behind"){
+      php +=3;
+    }
+
+
+
   })
 
 

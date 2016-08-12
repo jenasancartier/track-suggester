@@ -6,23 +6,22 @@
   margin-top: 20px;
 }
 
-h1 {
-  color: white;
-  font-family: 'Pacifico', cursive;
-}
-
 h2 {
   color: white;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Pacifico', cursive;
+  font-size: 6rem;
 }
 
 p {
-  color: white;
+  color: peru;
   font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 4rem;
 }
 
-#quiz h2 {
+#quiz h3 {
   color: black;
+  font-family: 'Amatic SC', cursive;
 }
 
 .row {
