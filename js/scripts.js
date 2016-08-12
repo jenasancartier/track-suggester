@@ -10,33 +10,49 @@ $(document).ready(function() {
     var css = 0;
     var ruby = 0;
     var java = 0;
-    var c# =  0;
+    var csharp =  0;
     var php = 0;
 
     if(q1Answer === "ui") {
-      css += 4;
+      css += 5;
       ruby += 3;
       java += 2;
       php -=3;
     } else if (q1Answer === "behind"){
       php +=3;
-      css -= 3
+      css -= 2;
     }
 
     if(q2Answer === "large") {
-      c# += 4;
+      csharp += 4;
       java += 4
       php += 3
       ruby -= 1
-      css += 1
+      css += 2
     } else if (q2Answer === "small") {
       css += 2;
       ruby += 3;
-      c# -= 3;
+      csharp -= 3;
       java -= 1;
     }
 
-    if
+    if(q3Answer === "interpret"){
+      php += 2;
+      ruby += 2;
+    } else if (q3Answer === "compile"){
+      java += 2;
+      csharp += 2;
+    }
+
+    if(q4Answer === "yesmobile"){
+      java += 4;
+      css += 3;
+      csharp += 3;
+    } else if (q4Answer === "nomobile"){
+      java -= 3;
+    }
+
+
   })
 
 

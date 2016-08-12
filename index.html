@@ -17,7 +17,7 @@
       <form id="quiz">
         <div class="row">
 
-          <div class="col-sm-3">
+          <div class="col-sm-6">
             <h4>Are you more concerned with user interaction or behind-the-scenes development?</h4>
             <div class="radio">
               <label>
@@ -33,62 +33,100 @@
             </div>
           </div>
 
-            <div class="col-sm-3">
-              <h4>Which type of company would you prefer to work for?</h4>
-              <div class="radio">
-                <label>
-                  <input class="form-control" name="q2" type="radio" value="large">
-                  I'd like to work for a larger company.
-                </label>
-              </div>
-              <div class="radio">
-                <label>
-                  <input class="form-control" name="q2" type="radio" value="small">
-                  I'd prefer a start-up or freelancing.
-                </label>
-              </div>
+          <div class="col-sm-6">
+            <h4>Which type of company would you prefer to work for: big business or small business?</h4>
+            <div class="radio">
+              <label>
+                <input class="form-control" name="q2" type="radio" value="large">
+                I'd like to work for a larger company.
+              </label>
             </div>
-
-              <div class="col-sm-3">
-                <h4>Here is question 3?</h4>
-                <div class="radio">
-                  <label>
-                    <input class="form-control" name="q3" type="radio" value="yes3">
-                    Yes, please.
-                  </label>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input class="form-control" name="q3" type="radio" value="no3">
-                    Not really.
-                  </label>
-                </div>
-              </div>
-
-                <div class="col-sm-3">
-                  <h4>Here is question 4?</h4>
-                  <div class="radio">
-                    <label>
-                      <input class="form-control" name="q4" type="radio" value="yes4">
-                      Yes, please.
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label>
-                      <input class="form-control" name="q4" type="radio" value="no4">
-                      Not really.
-                    </label>
-                  </div>
-                </div>
-
-
-                <div class="col-sm-4  col-sm-offset-1 text-center">
-                  <button type="submit" class="btn btn-lg btn-success">Show me my track!</button>
-                </div>
-
+            <div class="radio">
+              <label>
+                <input class="form-control" name="q2" type="radio" value="small">
+                I'd prefer a start-up or freelancing.
+              </label>
             </div>
           </div>
+
+          <div class="col-sm-6">
+            <h4>Are you interested in building mobile applications?</h4>
+            <div class="radio">
+              <label>
+                <input class="form-control" name="q4" type="radio" value="yesmobile">
+                Oh yes.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input class="form-control" name="q4" type="radio" value="nomobile">
+                Eh, not so much.
+              </label>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <h4>What's your favorite toy?</h4>
+            <div class="radio">
+              <label>
+                <input class="form-control" name="q5" type="radio" value="playdoh">
+                Play-Doh
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input class="form-control" name="q5" type="radio" value="legos">
+                Legos
+              </label>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <h4>What's your favorite toy?</h4>
+            <div class="radio">
+              <label>
+                <input class="form-control" name="q6" type="radio" value="playdoh">
+                Play-Doh
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input class="form-control" name="q6" type="radio" value="legos">
+                Legos
+              </label>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <h4>Do you prefer working with an interpreted language or a compiled language?*</h4>
+            <div class="radio">
+              <label>
+                <input class="form-control" name="q3" type="radio" value="interpret">
+                Interpreted.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input class="form-control" name="q3" type="radio" value="compile">
+                Compiled.
+              </label>
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col-sm-4  col-sm-offset-4 text-center">
+                <button type="submit" class="btn btn-lg btn-success">Show me my track!</button>
+              </div>
+            </div>
+
+            <ul>
+              <li>*An <em>interpreted language</em> has less rules and lets you code small tasks quickly.</li><br>
+              <li>*A <em>compiled language</em> has more rules and runs faster as a finished program.</li>
+            </ul>
+        </div>
       </form>
+      <div id="results">
+      </div>
     </div>
   </body>
 </html>

@@ -2,7 +2,7 @@
   text-align: center;
   background-size: cover;
   background-image: url("../img/road-ahead.jpeg");
-  border-radius: 40%;
+  border-radius: 10px;
   margin-top: 20px;
 }
 
@@ -24,7 +24,13 @@ p {
 }
 
 .row {
-  text-align: center;
+  text-align: left;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.col-sm-6 {
+  padding-bottom: 10px;
 }
 
 input[type=radio] {
@@ -48,9 +54,18 @@ label {
   margin-top: 10rem;
   background-color: #33334d;
   border-color: #ffad33;
+  margin-bottom: 10rem;
 }
 
 .btn:hover {
   background-color: #ffad33;
   border-color: #33334d;
+}
+
+ul {
+  float: center;
+  border: dotted grey 1px;
+  padding: 10px 10px 10px 23px;
+  border-radius: 10px;
+
 }
