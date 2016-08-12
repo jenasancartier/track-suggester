@@ -14,10 +14,8 @@ _A Track Suggester webpage (using HTML, CSS, JavaScript and JQuery) that asks th
   * https://github.com/jenasancartier/track-suggester.git
 2. _Move into the project folder_
 3. _Open index.html in the browser of your choice (preferably Chrome) OR_
-4. _You can simply open the website in your browser with this link:
+4. _You can simply open the website in your browser with this link:_
   *
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Known Bugs
 
