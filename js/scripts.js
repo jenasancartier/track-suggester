@@ -82,14 +82,39 @@ $(document).ready(function() {
 
     if((css>ruby) && (css>java) && (css>csharp) && (css>php)){
       alert("You should take the CSS/DESIGN track!")
+        $("#css").show();
+        $("#ruby").hide();
+        $("java").hide();
+        $("csharp").hide();
+        $("php").hide();
     } else if((ruby>css) && (ruby>java) && (ruby>csharp) && (ruby>php)){
       alert("You should take the RUBY/RAILS track!")
+        $("#css").hide();
+        $("#ruby").show();
+        $("java").hide();
+        $("csharp").hide();
+        $("php").hide();
     } else if((java>css) && (java>ruby) && (java>csharp) && (java>php)){
       alert("You should take the JAVA/ANDROID track!")
+      $("#css").hide();
+        $("#ruby").hide();
+        $("java").show();
+        $("csharp").hide();
+        $("php").hide();
     } else if((csharp>css) && (csharp>ruby) && (csharp>java) && (csharp>php)){
       alert("You should take the C#/.NET track!")
+        $("#css").hide();
+        $("#ruby").hide();
+        $("java").hide();
+        $("csharp").show();
+        $("php").hide();
     } else if ((php>css) && (php>ruby) && (php>java) && (php>csharp)){
-      alert("You should take the PHP/DRUPAL track!")
+        alert("You should take the PHP/DRUPAL track!")
+        $("#css").hide();
+        $("#ruby").hide();
+        $("java").hide();
+        $("csharp").hide();
+        $("php").show();
     }
 
     // $("results").html(result);
