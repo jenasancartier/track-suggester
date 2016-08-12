@@ -25,6 +25,7 @@ $(document).ready(function() {
       php += 3;
       css -= 4;
       csharp += 3;
+      ruby += 2;
     }
 //question 2
     if(q2Answer === "large") {

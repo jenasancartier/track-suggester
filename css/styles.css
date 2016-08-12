@@ -2,52 +2,92 @@
   display: none;
   margin-bottom: 13px;
   border: dotted black 5px;
+  padding: 15px;
 }
 
 #css img {
   float: left;
+  margin-bottom: 19px;
 }
 
 .css {
   font-size: 22px;
   color: black;
   font-family: sans-serif;
+  padding-left: 10px;
 }
 
 #ruby {
   display: none;
-  margin-bottom: 13px;
+  margin-bottom: 20px;
+  border: dotted black 5px;
+  padding: 15px;
 }
 
 #ruby img {
   float: left;
+  margin-bottom: 19px;
+}
+
+.ruby {
+  font-size: 22px;
+  color: black;
+  font-family: sans-serif;
+  margin-left: 10px;
 }
 
 #java {
   display: none;
-  margin-bottom: 13px;
+  margin-bottom: 25px;
+  border: dotted black 5px;
+  padding: 15px;
 }
 
 #java img {
   float: left;
+  margin-bottom: 19px;
+}
+
+.java {
+  font-size: 22px;
+  color: black;
+  font-family: sans-serif;
 }
 
 #csharp {
   display: none;
   margin-bottom: 13px;
+  border: dotted black 5px;
+  padding: 15px;
 }
 
 #csharp img {
   float: left;
+  margin-bottom: 19px;
+}
+
+.csharp {
+  font-size: 22px;
+  color: black;
+  font-family: sans-serif;
 }
 
 #php {
   display: none;
   margin-bottom: 13px;
+  border: dotted black 5px;
+  padding: 15px;
 }
 
 #php img {
   float: left;
+  margin-bottom: 19px;
+}
+
+.php {
+  font-size: 22px;
+  color: black;
+  font-family: sans-serif;
 }
 
 .jumbotron {
