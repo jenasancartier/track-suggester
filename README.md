@@ -15,7 +15,7 @@ _A Track Suggester webpage (using HTML, CSS, JavaScript and JQuery) that asks th
 2. _Move into the project folder_
 3. _Open index.html in the browser of your choice (preferably Chrome) OR_
 4. _You can simply open the website in your browser with this link:_
-  * 
+  * https://jenasancartier.github.io/track-suggester/
 
 ## Known Bugs
 
