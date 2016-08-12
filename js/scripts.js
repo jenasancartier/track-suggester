@@ -79,8 +79,6 @@ $(document).ready(function() {
       csharp += 2;
     }
 
-    // var result = "";
-
     if((css>ruby) && (css>java) && (css>csharp) && (css>php)){
       alert("You should take the CSS/DESIGN track!")
         $("#css").show();
@@ -123,5 +121,5 @@ $(document).ready(function() {
         $("ul").hide();
     }
 
-  });
+ });
 });
