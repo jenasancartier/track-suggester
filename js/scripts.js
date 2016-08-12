@@ -12,7 +12,7 @@ $(document).ready(function() {
     var java = 0;
     var csharp =  0;
     var php = 0;
-
+//question 1
     if(q1Answer === "ui") {
       css += 5;
       ruby += 3;
@@ -22,7 +22,7 @@ $(document).ready(function() {
       php +=3;
       css -= 2;
     }
-
+//question 2
     if(q2Answer === "large") {
       csharp += 4;
       java += 4
@@ -35,23 +35,37 @@ $(document).ready(function() {
       csharp -= 3;
       java -= 1;
     }
-
-    if(q3Answer === "interpret"){
-      php += 2;
-      ruby += 2;
-    } else if (q3Answer === "compile"){
-      java += 2;
-      csharp += 2;
-    }
-
-    if(q4Answer === "yesmobile"){
+//question 3
+    if(q3Answer === "yesmobile"){
       java += 4;
       css += 3;
       csharp += 3;
-    } else if (q4Answer === "nomobile"){
+    } else if (q3Answer === "nomobile"){
       java -= 3;
     }
 
+//question 4
+    if(q4Answer === "playdoh"){
+
+    } else if (q4Answer === "legos"){
+
+    }
+
+//question 5
+    if(q5Answer === ""){
+
+    } else if (q4Answer ===""){
+
+    }
+    
+//question6
+    if(q6Answer === "interpret"){
+      php += 2;
+      ruby += 2;
+    } else if (q6Answer === "compile"){
+      java += 2;
+      csharp += 2;
+    }
 
   })
 
