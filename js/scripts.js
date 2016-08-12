@@ -123,9 +123,5 @@ $(document).ready(function() {
         $("ul").hide();
     }
 
-    // $("results").html(result);
-  })
-
-
-
+  });
 });

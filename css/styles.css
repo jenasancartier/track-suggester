@@ -2,6 +2,7 @@
   display: none;
   margin-bottom: 13px;
   border: dotted black 5px;
+  border-radius: 10px;
   padding: 15px;
 }
 
@@ -21,6 +22,7 @@
   display: none;
   margin-bottom: 20px;
   border: dotted black 5px;
+  border-radius: 10px;
   padding: 15px;
 }
 
@@ -40,6 +42,7 @@
   display: none;
   margin-bottom: 25px;
   border: dotted black 5px;
+  border-radius: 10px;
   padding: 15px;
 }
 
@@ -58,6 +61,7 @@
   display: none;
   margin-bottom: 13px;
   border: dotted black 5px;
+  border-radius: 10px;
   padding: 15px;
 }
 
@@ -76,6 +80,7 @@
   display: none;
   margin-bottom: 13px;
   border: dotted black 5px;
+  border-radius: 10px;
   padding: 15px;
 }
 
@@ -113,6 +118,7 @@ p {
 
 #quiz h4 {
   color: black;
+
 }
 
 .row {
@@ -159,5 +165,4 @@ ul {
   border: dotted grey 1px;
   padding: 10px 10px 10px 23px;
   border-radius: 10px;
-
 }
