@@ -1,4 +1,5 @@
-# _Track-Suggester_
+# [Track-Suggester](https://jenasancartier.github.io/track-suggester/)
+![project image](/img/screenshot.png)
 
 #### _A "Track Suggester" webpage (using HTML, CSS, JavaScript and JQuery) that acts as a quiz for the user. {08/12/2016}_
 
